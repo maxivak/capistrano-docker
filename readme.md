@@ -102,4 +102,5 @@ set :docker_network, "my_network_name"
 
 TODO:
 * create a systemd service to manage Docker container
-* create Docker container to run sidekiq
+* build Docker image to run sidekiq
+* install sidekiq in Docker container on worker servers
